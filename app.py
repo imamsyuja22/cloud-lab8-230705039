@@ -4,7 +4,7 @@ app = Flask(__name__)
 @app.route('/')
 def hello():
     # Silahkan ganti <NIM Anda> dengan NIM asli Anda
-    return {'pesan': 'Hello from CI/CD', 'nim': '230705039'}
+    return {'pesan': 'Halo', 'nim': '230705039'}
 
 @app.route('/health')
 def health():
